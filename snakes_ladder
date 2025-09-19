@@ -1,0 +1,52 @@
+# Snakes and ladder game
+
+diceRoll = int(input("Enter dice roll data: "))
+newPostition = 1
+invalidInput = True
+while diceRoll != 0:
+    while invalidInput:
+        if diceRoll in {0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}:
+            if diceRoll == 0:
+                print("You quit!")
+                break
+            else:
+                newPostition = newPostition + diceRoll
+                invalidInput = False
+        else: 
+            print("invalid input, enter again")
+            diceRoll = int(input())
+    
+    if diceRoll + newPostition >= 100:
+        print(f"You have reached 100, you win!")
+    else:
+            game_dict = {
+                9 : 34,
+                54 : 19, 
+                40 : 65, 
+                90 : 48,
+                67 : 86,
+                99 : 77
+            }
+            if newPostition in game_dict: 
+                square = game_dict[newPostition]
+            
+        # if newPostition == 9:
+        #     newPostition = 34
+        # elif newPostition == 40:
+        #     newPostition = 64
+        # elif newPostition == 67:
+        #     newPostition = 86
+        # # end of ladders
+        # elif newPostition == 54:
+        #     newPostition = 19
+        # elif newPostition == 90:
+        #     newPostition = 49
+        # elif newPostition == 99:
+        #     newPostition = 77
+        # # end of snakes
+    if invalidInput == False:
+        print(f"You are now on square {newPostition}")
+        diceRoll = int(input())
+    invalidInput = True
+
+print("You quit!")
