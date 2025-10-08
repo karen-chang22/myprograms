@@ -5,4 +5,5 @@
 num = int(input("enter integer: "))
 
 
-
+for divider in range(1, num+1):
+    print(f"divider is: {divider}")
