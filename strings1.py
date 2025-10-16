@@ -5,6 +5,10 @@ def is_palindrome(word):
     return word == word[::-1]
 
 text = input("enter a word: ")
+if 'ab' <= 'abc':
+    print("true")
+else:
+    print('false')
 if is_palindrome(text):
     print(f"{text} is a palindrome")
 else:
