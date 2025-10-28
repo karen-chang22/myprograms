@@ -55,7 +55,7 @@ print("kenny" in names) # output: True
 # 11. locate the index of an item within a list
 print(names.index("kenny")) # output: 7
 
-# 12. cont how often an item occurs within a list
+# 12. count how often an item occurs within a list
 nums = [
     99, 7, 2, 23, 2, 8, 12, 2,
 ] 
