@@ -14,5 +14,6 @@ def output_pattern(num):
     for i in range(1, num+1):
         print(create_line(i))
 
-v = output_pattern(5) #must give num a value
+# v = output_pattern(5) #this is when we set the value of num
 
+x = int(input(output_pattern(x))) #this is when we get inputs
