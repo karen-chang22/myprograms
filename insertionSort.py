@@ -10,7 +10,7 @@ def inserty(a_list):
         while j > 0:
             if a_list[j-1] > a_list[j]:
                 a_list[j-1], a_list[j],  = a_list[j], a_list[j-1]
-                b_list[j-1], b_list[j] = b_list[j], b_list[j-1]
+                # b_list[j-1], b_list[j] = b_list[j], b_list[j-1]
             else:
                 break
             
@@ -18,8 +18,6 @@ def inserty(a_list):
         
         i += 1
 
-
-        1, 3, 4, 1, 5, 2, 9
-    return a_list, b_list
+    return a_list #b_list
 
 print(inserty(a_list))
