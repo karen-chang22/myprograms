@@ -26,5 +26,3 @@ def select(a_list): #a_list is a placeholder variable, rep the input the functio
 
             i += 1    
 
-
-
