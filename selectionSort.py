@@ -14,7 +14,6 @@ def select(a_list): #a_list is a placeholder variable, rep the input the functio
                 if new_value < smallest: # smallest value is no longer is smallest
                     smallest = new_value
                     new_location = j # the index/location of new smallest item
-                    
                 j += 1
             # end of hunting
             # swap the smallest into the proper location
@@ -23,6 +22,6 @@ def select(a_list): #a_list is a placeholder variable, rep the input the functio
             a_list[new_location] = temporary
             # Python way
             # a_list[i], a_list[new_location] = a_list[new_location], a_list[i]
-
             i += 1    
+    return a_list
 
