@@ -1,0 +1,94 @@
+body {
+    background-color: #fee8c3;
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    color: #b86644;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Sour Gummy", sans-serif;
+
+}
+h2 {
+    color: #c464a1;
+}
+#highlight {
+    background-color: rgb(252, 146, 146);
+    color: black;
+}
+#header {
+    position: sticky;
+    top: 0;
+    width: 77%;
+    height: 30px;
+    background-color: #ffe7db;
+    color: grey;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #b86644;
+    z-index: 1
+}
+#header p, h2 {
+    display: inline;
+}
+#header p {
+    font-size: .75rem;
+    font-variant: small-caps;
+}
+#parent {
+    position: relative;
+    width: 80%;
+    height: 550px;
+    margin: 5% auto;
+    background-color: #ffe7db;
+    border-style: solid;
+    border-color: #b86644;
+    color: black;
+    border-radius: 30px;
+}
+#child {
+    position: absolute;
+    width: 75%;
+    height: 350px;
+    right: 12%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #b86644;
+    background-color: #ffe0d1;
+    color: black;
+}
+#relative {
+    position: relative;
+    width: 60%; 
+    height: 350px;
+    top: 250px;
+    left: 20%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #b86644;
+    background-color: #ffe7db;
+    color: black;
+}
+img {
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    width: 5%;
+    height: auto;
+    z-index: 2;
+}
+/* #img2 {
+    position: fixed;
+    width: 20%;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    z-index: 2;
+} */

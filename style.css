@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+body {
+    background-color: #dbd4f2;
+    background: radial-gradient(circle,rgba(238, 174, 202, 0.5)0%, rgba(148, 187, 233, 0.5)100%);
+    font-family: "Londrina Shadow", cursive;}
+h1 {
+    color: #010006;
+}
+h2, h3, h4, h5, h6 {
+    color: #2d0e91;
+}
+h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+p {
+    background-color: #faf8ff;
+    color: #1a0659;
+}
